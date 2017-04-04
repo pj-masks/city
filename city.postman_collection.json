@@ -1,0 +1,33 @@
+{
+	"variables": [],
+	"info": {
+		"name": "city",
+		"_postman_id": "dcc7e804-0068-ee89-2075-9d0276eb6ce4",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "server",
+			"request": {
+				"url": "localhost:1234/cities",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "client",
+			"request": {
+				"url": "localhost:2345/cities",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
